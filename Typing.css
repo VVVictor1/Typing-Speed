@@ -1,0 +1,150 @@
+body{
+    
+    background-color: #7b939b;
+   
+}
+
+.card1{
+background-image: url('https://www.shutterstock.com/image-illustration/digital-virtual-keyboard-on-blue-260nw-282521690.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 0;
+text-align: center;
+color: rgb(35, 201, 157);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 70rem;
+height: 30rem;
+margin: auto;
+}
+
+table {
+
+    display: flex;
+    justify-content: center;
+    border-collapse: separate;
+    border-spacing: 0 2rem; 
+
+}
+.btn {
+
+    margin: auto;
+    margin-top: 1rem;
+    width: max-content;
+
+}
+
+
+.card2 {
+    width: 70rem;
+    height:40rem;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: rgb(235, 235, 235);
+}
+.Title{
+    margin-top: 30px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #7b939b;
+    padding-bottom: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.timer{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px aqua solid;
+    margin-left: 20rem;
+    margin-right: 70px;
+
+}
+.score{
+    display: flex;
+    align-items: center;
+}
+.box {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 20%;
+
+}
+.header-text {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 600;
+   display: flex;
+   justify-content: center;
+  }
+  
+.Acuracy{
+margin: 3px 0 0 5px;
+}
+.sec{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.box-Text{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45rem;
+    border: 1px solid;
+}
+.textSpeed{
+    text-align: center;
+    background-color: rgb(220, 233, 198);
+    font-size: x-large;
+}
+.textBox p{
+    font-size: 21px;
+    white-space: pre-line; 
+}
+.correct{
+    color: green;
+    font-weight: 500;
+}
+.wrong{
+    color: #cb3439;
+  
+  background: #ffc0cb;
+  border-radius: 15%;
+    font-weight: 500;
+}
+.focused{
+    color: blue;
+    text-decoration: underline;
+}
+.continer-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.cardDisplay {
+    width: 50rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  .img-card{
+    width: 300px;
+    height: 23rem;
+    
+  }
+  .text-card{
+
+    font-size: 30px;
+    color: #333;
+    background-color: white;
+  }
+ 
+  

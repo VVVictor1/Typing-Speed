@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  
+    <link href="Typing.css" rel="stylesheet">
+
+    <title>Typing Speed</title>
+  </head>
+  <body>
+    <div class="container" style="margin-top: 50px;">
+        <div class="card card1">
+            <h1 style="margin-top: 30px;">Check your typing skills in a minute</h1>
+
+            <table>
+                <tr>
+                    <th> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12.5 7.25a.75.75 0 0 0-1.5 0v5.5c0 .27.144.518.378.651l3.5 2a.75.75 0 0 0 .744-1.302L12.5 12.315V7.25Z"></path><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"></path></svg></th>
+                    <th > <select id="timeSelect"  class="form-select" style="width: 20rem;">
+                        <option selected value = "1">1 Minute Test</option>
+                        <option value="3">3 Minutes Test</option>
+                        <option value="5">5 Minutes Test</option>
+                      </select></th>
+                          
+                </tr>
+                
+                <tr>
+                    <th> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"></path><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"></path></svg></th>
+                    <th><select id="levelSelect" class="form-select"  style="width: 20rem;">
+                        <option selected value="easy">Easy Test</option>
+                        <option value="medium">Medium Test</option>
+                        <option value="hard">Hard Test</option>
+                      </select>
+        </th>
+                </tr>
+            </table>
+            <a href="typingSpeed.html" onclick="SelectText()" class="btn btn-success">Start Test</a>
+
+           
+         </div>
+         
+    </div>
+    
+
+    <script src="Typing.js"></script>
+  </body>
+</html>

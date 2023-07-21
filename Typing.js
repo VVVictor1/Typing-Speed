@@ -25,8 +25,7 @@ function SelectText() {
   let timer = document.getElementById('timeSelect').value;
   let levelText = document.getElementById('levelSelect').value;
   localStorage.setItem('levelText',levelText);
-  localStorage.setItem('timer', timer); 
-  
+  localStorage.setItem('timer', timer);
 }
 
 
@@ -136,19 +135,15 @@ function checkInput() {
 
   letterSpan.forEach((element, index) => {
     let charInput = inputLetter[index];
-  
     
     if (charInput === undefined) {
       element.classList.remove('wrong');
       element.classList.remove('correct');
-      
     } else if (charInput === element.textContent) {
       correctChar = true;
-      element.classList.remove('wrong');
       element.classList.add('correct');
     } else {
       correctChar = false;
-      element.classList.remove('correct');
       element.classList.add('wrong');
     }
     
@@ -158,7 +153,7 @@ function checkInput() {
     ++charCount;
   }
  Score();
-// change index qoute
+//change index qoute
   if(inputLetter.length === textWords[indexText].length){
     ++indexText;
     typeBox.value = '';
@@ -229,7 +224,7 @@ function startAgain(){
 
   let textElement = document.createElement('p');
   textElement.innerHTML = `<b>Nice! You are a ${yourSpeed}</b><br><br>You type with the speed of ${WPM.innerHTML} WPM (${charCount} CPM). Your accuracy was ${accuracy.textContent}%. Keep practicing!<br><br>`;
-  textElement.appendChild(buttonReset)
+  textElement.appendChild(buttonReset);
 
   textElement.classList.add('text-card');
   imageCard.classList.add('img-card');
